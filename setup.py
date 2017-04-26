@@ -25,8 +25,8 @@ setup(
     packages=find_packages(),
     long_description=read('README.rst'),
     install_requires=[
-        'boto3==1.1.2',
-        'click==5.1',
+        'boto3>=1.1.2',
+        'click>=5.1',
     ],
     setup_requires=[
         'setuptools_scm==1.7.0',
